@@ -6,9 +6,10 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 100%;
   background: rgb(248, 242, 242);
-  margin: 40px auto;
+  margin: 0;
+  box-shadow: #000;
 }
 /* main content */
 .main-content-section {
@@ -131,10 +132,11 @@ body {
   background: #bdd2f1;
   margin: 8px 88px 8px 11px;
   width: 450px;
-  padding: 40px 0;
 }
 
-.sidebaar-section img{
+.sidebaar-section img {
+  display: block;
+  width: 100%;
   border-radius: 50%;
 }
 .contact-birth,
@@ -157,7 +159,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   margin-right: 5px;
-  color:  #373737;
+  color: #373737;
   margin-right: 7px;
 }
 .contact-section-linc {
@@ -176,7 +178,7 @@ body {
 }
 .birthday,
 .tech-skills-item-text {
-  color:  #373737;
+  color: #373737;
 }
 /* soft skill section */
 .soft-skills-section {
